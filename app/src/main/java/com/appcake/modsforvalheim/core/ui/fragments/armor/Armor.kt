@@ -82,6 +82,7 @@ class Armor : Fragment(), OnCategoryItemListener, OnItemClickListener, View.OnCl
             setUpObserverForDropbox()
         } else {
             fetchDataFromDataBase()
+            //test for Bitrise CI/CD
         }
 
         MobileAds.initialize(requireContext()) {}
