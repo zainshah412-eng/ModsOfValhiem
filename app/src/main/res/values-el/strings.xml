@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">ΒΡΕΙΤΕ ΚΑΙ ΝΙΚΗΤΕ ΔΥΝΑΤΑ ΑΦΕΝΤΙΚΑ</string>
+    <string name="subText2">ΕΞΕΡΕΥΝΗΣΤΕ ΤΑ ΜΥΣΤΗΡΙΑ ΜΙΣΤΛΑΝΔΙΑ</string>
+    <string name="subText3">ΠΡΟΣΘΕΣΤΕ ΧΡΗΣΙΜΑ ΕΙΔΗ ΣΤΟ ΑΠΟΘΕΜΑ ΣΑΣ</string>
+    <string name="subText4">ΠΡΟΣΤΑΤΕΥΤΕ ΤΟΝ ΕΑΥΤΟ ΣΑΣ ΜΕ ΝΕΑ ΟΠΛΑ</string>
+    <string name="subText5">ΑΠΟΚΤΗΣΤΕ ΤΗΝ ΚΑΛΥΤΕΡΗ ΣΥΛΛΟΓΗ MODS</string>
+    <string name="free_trial">ΞΕΚΙΝΗΣΤΕ 3 ΗΜΕΡΕΣ ΔΩΡΕΑΝ ΤΟΤΕ 29,99 $/ΕΒΔΟΜΑΔΑ</string>
+    <string name="privacy_policy" >&lt;u>Πολιτική Απορρήτου &lt;/u></string>
+    <string name="terms" >&lt;u>Οροι χρήσης &lt;/u></string>
+    <string name="add_text_here" >Στο τέλος της προσφοράς, η συνδρομή θα πληρωθεί αυτόματα και θα χρεώνεστε 29,99 $ μία φορά την εβδομάδα μέχρι να ακυρώσετε τη συνδρομή σας. Μπορείτε να διαγραφείτε ανά πάσα στιγμή. Ελέγξτε την πολιτική απορρήτου και τους όρους χρήσης μας.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

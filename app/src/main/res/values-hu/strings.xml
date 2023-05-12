@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">KERESJ MEG ÉS GYŐZD LE ERŐS FŐNÖKET</string>
+    <string name="subText2">FEDEZZE FEL A REJTEZETES KÖDÉKET</string>
+    <string name="subText3">HASZNOS TÉTELEKET VÉGEZZE A KÉSZLETHEZ</string>
+    <string name="subText4">VÉDJE MAGÁT ÚJ FEGYVEREKKEL</string>
+    <string name="subText5">SZEREZZE MEG A LEGJOBB MOD-GYŰJTEMÉNYT</string>
+    <string name="free_trial">KEZDJEN EL 3 NAPOT INGYEN, MAJD 29,99 USD/HÉT</string>
+    <string name="privacy_policy" >&lt;u>Adatvédelmi irányelvek &lt;/u></string>
+    <string name="terms" >&lt;u>Használati feltételek &lt;/u></string>
+    <string name="add_text_here" >Az ajánlat végén az előfizetést automatikusan kifizetjük, és hetente egyszer 29,99 USD-t kell fizetnie, amíg le nem mondja az előfizetést. Bármikor leiratkozhat. Tekintse meg adatvédelmi szabályzatunkat és használati feltételeinket.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="add_text_here">在优惠结束时，订阅将自动支付，您将每周支付一次 29.99 美元，直到您取消订阅。您可以随时取消订阅。查看我们的隐私政策和使用条款。 </string>
+    <string name="free_trial" >ابدأ لمدة 3 أيام مجانًا ثم 29.99 دولارًا أمريكيًا في الأسبوع</string>
+    <string name="subText1">找到并打败强大的老板</string>
+    <string name="subText2">探索神秘的迷雾之地</string>
+    <string name="subText3"> 将有用的物品添加到您的库存中</string>
+    <string name="subText4"> 用新武器保护自己</string>
+    <string name="subText5">获取最佳模组合集 </string>
+    <string name="privacy_policy" >&lt;u>隐私政策 &lt;/u></string>
+    <string name="terms" >&lt;u>使用条款&lt;/u></string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

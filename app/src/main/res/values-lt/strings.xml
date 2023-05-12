@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">RASTI IR NUGALĖK GALINGUS BOSSUS</string>
+    <string name="subText2">TYRINTI PASLAPTINGAS MIGLAS</string>
+    <string name="subText3">PRIDĖKITE NAUDINGŲ PREKIŲ Į SAVO INVENTORIUS</string>
+    <string name="subText4">APSAUGOKITE SAVE NAUJAIS GINKLAIS</string>
+    <string name="subText5">GAUTI GERIAUSIĄ MODIŲ KOLEKCIJĄ</string>
+    <string name="free_trial">PRADĖKITE 3 DIENAS NEMOKAMAI, TAI 29,99 USD per savaitę</string>
+    <string name="privacy_policy" >&lt;u>Privatumo Politika &lt;/u></string>
+    <string name="terms" >&lt;u>Naudojimo sąlygos &lt;/u></string>
+    <string name="add_text_here" >Pasibaigus pasiūlymui, prenumerata bus automatiškai apmokėta ir kartą per savaitę turėsite sumokėti 29,99 USD, kol atšauksite prenumeratą. Galite bet kada atsisakyti prenumeratos. Peržiūrėkite mūsų privatumo politiką ir naudojimo sąlygas.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

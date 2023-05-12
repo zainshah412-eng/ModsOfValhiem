@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">強力なボスを見つけて倒す</string>
+    <string name="subText2">ミステリアスなミストランドを探検</string>
+    <string name="subText3">インベントリに便利なアイテムを追加</string>
+    <string name="subText4">新しい武器で身を守れ</string>
+    <string name="subText5">最高のMODコレクションを手に入れよう</string>
+    <string name="free_trial">3 日間無料で始めて、その後 $29.99/週</string>
+    <string name="privacy_policy" >&lt;u>プライバシーポリシー &lt;/u></string>
+    <string name="terms" >&lt;u>利用規約 &lt;/u></string>
+    <string name="add_text_here" >オファーの終了時に、サブスクリプションは自動的に支払われ、サブスクリプションをキャンセルするまで、週に 1 回 $29.99 が請求されます。いつでも退会できます。当社のプライバシー ポリシーと利用規約を確認してください。</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

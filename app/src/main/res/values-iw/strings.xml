@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">מצא והבס בוסים חזקים</string>
+    <string name="subText2">חקור את אזורי הערפל המסתוריים</string>
+    <string name="subText3">הוסף פריטים שימושיים למלאי שלך</string>
+    <string name="subText4">הגן על עצמך עם כלי נשק חדשים</string>
+    <string name="subText5">קבל את האוסף הטוב ביותר של מודים</string>
+    <string name="free_trial">התחל 3 ימים בחינם ואז 29.99 $ לשבועE</string>
+    <string name="privacy_policy" >&lt;u>מדיניות הפרטיות &lt;/u></string>
+    <string name="terms" >&lt;u>תנאי שימוש &lt;/u></string>
+    <string name="add_text_here" >בתום המבצע, המנוי ישולם אוטומטית ותחויב ב-$29.99 פעם בשבוע עד שתבטל את המנוי. אתה יכול לבטל את המנוי בכל עת. עיין במדיניות הפרטיות ובתנאי השימוש שלנו.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">TROVA E SCONFIGGI POTENTI BOSS</string>
+    <string name="subText2">ESPLORA LE MISTERIOSE MISTLANDS</string>
+    <string name="subText3">AGGIUNGI OGGETTI UTILI AL TUO INVENTARIO</string>
+    <string name="subText4">PROTEGGITI CON NUOVE ARMI</string>
+    <string name="subText5">OTTIENI LA ​​MIGLIORE COLLEZIONE DI MOD</string>
+    <string name="free_trial">INIZIA 3 GIORNI GRATIS POI $ 29,99/SETTIMANA</string>
+    <string name="privacy_policy" >&lt;u>Politica sulla Riservatezza &lt;/u></string>
+    <string name="terms" >&lt;u>Termini di utilizzo &lt;/u></string>
+    <string name="add_text_here" >Al termine dell\'offerta, l\'abbonamento verrà pagato automaticamente e ti verranno addebitati $ 29,99 una volta alla settimana fino all\'annullamento dell\'abbonamento. È possibile disdire in qualsiasi momento. Consulta la nostra politica sulla privacy e i termini di utilizzo.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

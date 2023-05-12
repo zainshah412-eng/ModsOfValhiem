@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">НАЙДИТЕ И ПОБЕЖДАЙТЕ МОЩНЫХ БОССОВ</string>
+    <string name="subText2">ИССЛЕДУЙТЕ ЗАГАДОЧНЫЕ ТУМАНИСТЫЕ ЗЕМЛИ</string>
+    <string name="subText3">ДОБАВЬТЕ ПОЛЕЗНЫЕ ПРЕДМЕТЫ В ИНВЕНТАРЬ</string>
+    <string name="subText4">ЗАЩИТИТЕ СЕБЯ НОВЫМ ОРУЖИЕМ</string>
+    <string name="subText5">ПОЛУЧИТЕ ЛУЧШУЮ КОЛЛЕКЦИЮ МОДОВ</string>
+    <string name="free_trial">НАЧНИТЕ 3 ДНЯ БЕСПЛАТНО, ПОТОМ $ 29,99 / НЕДЕЛЯ</string>
+    <string name="privacy_policy" >&lt;u>политика конфиденциальности &lt;/u></string>
+    <string name="terms" >&lt;u>Условия эксплуатации &lt;/u></string>
+    <string name="add_text_here" >В конце предложения подписка будет автоматически оплачена, и с вас будет взиматься плата в размере 29,99 долларов США один раз в неделю, пока вы не отмените подписку. Вы можете отписаться в любое время. Ознакомьтесь с нашей политикой конфиденциальности и условиями использования.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

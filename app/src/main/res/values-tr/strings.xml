@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">GÜÇLÜ PATRONLARI BULUN VE YENİN</string>
+    <string name="subText2">GİZEMLİ MİSTLANDLARI KEŞFEDİN</string>
+    <string name="subText3">ENVANTERİNİZE FAYDALI ÖĞELER EKLEYİN</string>
+    <string name="subText4">YENİ SİLAHLARLA KENDİNİZİ KORUYUN</string>
+    <string name="subText5">EN İYİ MOD KOLEKSİYONUNA ULAŞIN</string>
+    <string name="free_trial">3 GÜN ÜCRETSİZ BAŞLAYIN, SONRA HAFTADA 29,99 $</string>
+    <string name="privacy_policy" >&lt;u>Gizlilik Politikası &lt;/u></string>
+    <string name="terms" >&lt;u>Kullanım Şartları &lt;/u></string>
+    <string name="add_text_here" >Teklifin sonunda abonelik otomatik olarak ödenecek ve siz aboneliğinizi iptal edene kadar haftada bir kez 29,99 ABD Doları ücretlendirilecektir. İstediğiniz zaman abonelikten çıkabilirsiniz. Gizlilik politikamızı ve kullanım koşullarımızı inceleyin.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

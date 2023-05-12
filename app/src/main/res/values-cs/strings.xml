@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">NAJDĚTE A PORAŽTE SILNÉ ŠÉFY</string>
+    <string name="subText2">PROZKOUMEJTE TAJEMNÉ MISTLANDY</string>
+    <string name="subText3">PŘIDEJTE DO SVÉHO INVENTÁŘE UŽITEČNÉ POLOŽKY</string>
+    <string name="subText4">CHRAŇTE SE NOVÝMI ZBRANĚMI</string>
+    <string name="subText5">ZÍSKEJTE NEJLEPŠÍ KOLEKCI MODŮ</string>
+    <string name="free_trial">ZAČNĚTE 3 DNY ZDARMA, PAK 29,99 $/TÝDEN</string>
+    <string name="privacy_policy" >&lt;u>Zásady ochrany osobních údajů &lt;/u></string>
+    <string name="terms" >&lt;u>Podmínky použití &lt;/u></string>
+    <string name="add_text_here" >Na konci nabídky bude předplatné automaticky zaplaceno a jednou týdně vám bude účtováno 29,99 $, dokud předplatné nezrušíte. Z odběru se můžete kdykoli odhlásit. Podívejte se na naše zásady ochrany osobních údajů a podmínky použití.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

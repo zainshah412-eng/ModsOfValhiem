@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/iv_text_slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:text="@string/armor"
+        android:textAlignment="center"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:fontFamily="@font/poppins_bold"
+        android:src="@drawable/progress_animation" />
+</androidx.constraintlayout.widget.ConstraintLayout>

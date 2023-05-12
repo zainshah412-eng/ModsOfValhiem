@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">ENCUENTRA Y DERROTA A JEFES PODEROSOS</string>
+    <string name="subText2">EXPLORA LAS MISTERIOSAS TIERRAS DE NIEBLA</string>
+    <string name="subText3">AGREGAR ARTÍCULOS ÚTILES A SU INVENTARIO</string>
+    <string name="subText4">PROTÉGETE CON NUEVAS ARMAS</string>
+    <string name="subText5">CONSIGUE LA MEJOR COLECCIÓN DE MODS</string>
+    <string name="free_trial">COMIENZA 3 DÍAS GRATIS LUEGO $29.99/SEMANA</string>
+    <string name="privacy_policy" >&lt;u>Política de Privacidad &lt;/u></string>
+    <string name="terms" >&lt;u>Condiciones de uso &lt;/u></string>
+    <string name="add_text_here" >Al final de la oferta, la suscripción se pagará automáticamente y se le cobrará $29.99 una vez por semana hasta que cancele su suscripción. Puedes darte de baja en cualquier momento. Consulte nuestra política de privacidad y términos de uso.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

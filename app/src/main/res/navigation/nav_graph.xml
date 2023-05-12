@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mods">
+
+    <fragment
+        android:id="@+id/armor"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.armor.Armor"
+        android:label="fragment_armor"
+        tools:layout="@layout/fragment_armor">
+        <action
+            android:id="@+id/action_armor_to_armorDetailFragment"
+            app:destination="@id/armorDetailFragment" />
+        <action
+            android:id="@+id/action_armor_to_drawer"
+            app:destination="@id/drawer" />
+    </fragment>
+    <fragment
+        android:id="@+id/biome"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.biome.BiomeFragment"
+        android:label="fragment_biome"
+        tools:layout="@layout/fragment_biome">
+        <action
+            android:id="@+id/action_biome_to_biomeDetailFragment"
+            app:destination="@id/biomeDetailFragment" />
+        <action
+            android:id="@+id/action_biome_to_drawer"
+            app:destination="@id/drawer" />
+    </fragment>
+    <fragment
+        android:id="@+id/drawer"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.DrawerFragment"
+        android:label="fragment_drawer"
+        tools:layout="@layout/fragment_drawer" />
+    <fragment
+        android:id="@+id/character"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.character.CharacterFragment"
+        android:label="fragment_character"
+        tools:layout="@layout/fragment_character">
+        <action
+            android:id="@+id/action_character_to_characterDetailFragment"
+            app:destination="@id/characterDetailFragment" />
+        <action
+            android:id="@+id/action_character_to_drawer"
+            app:destination="@id/drawer" />
+    </fragment>
+    <fragment
+        android:id="@+id/maps"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps">
+        <action
+            android:id="@+id/action_maps_to_mapsDetailFragment"
+            app:destination="@id/mapsDetailFragment" />
+        <action
+            android:id="@+id/action_maps_to_drawer"
+            app:destination="@id/drawer" />
+    </fragment>
+    <fragment
+        android:id="@+id/mods"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.mods.ModsFragment"
+        android:label="fragment_mods"
+        tools:layout="@layout/fragment_mods">
+        <action
+            android:id="@+id/action_mods_to_modsDetailFragment"
+            app:destination="@id/modsDetailFragment" />
+        <action
+            android:id="@+id/action_mods_to_drawer"
+            app:destination="@id/drawer" />
+    </fragment>
+    <fragment
+        android:id="@+id/armorDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.armor.ArmorDetailFragment"
+        android:label="fragment_armor_detail"
+        tools:layout="@layout/fragment_armor_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/biomeDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.biome.BiomeDetailFragment"
+        android:label="fragment_biome_detail"
+        tools:layout="@layout/fragment_biome_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapsDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.maps.MapsDetailFragment"
+        android:label="fragment_maps_detail"
+        tools:layout="@layout/fragment_maps_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/modsDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.mods.ModsDetailFragment"
+        android:label="fragment_mods_detail"
+        tools:layout="@layout/fragment_mods_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.character.CharacterDetailFragment"
+        android:label="fragment_character_detail"
+        tools:layout="@layout/fragment_character_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/buildsFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.builds.BuildsFragment"
+        android:label="fragment_builds"
+        tools:layout="@layout/fragment_builds">
+        <action
+            android:id="@+id/action_buildsFragment_to_buildsDetailFragment"
+            app:destination="@id/buildsDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/buildsDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.builds.BuildsDetailFragment"
+        android:label="fragment_builds_detail"
+        tools:layout="@layout/fragment_builds_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/creatureFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.creature.CreatureFragment"
+        android:label="fragment_creature"
+        tools:layout="@layout/fragment_creature">
+        <action
+            android:id="@+id/action_creatureFragment_to_creatureDetailFragment"
+            app:destination="@id/creatureDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/guideFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.guide.GuideFragment"
+        android:label="fragment_guide"
+        tools:layout="@layout/fragment_guide">
+        <action
+            android:id="@+id/action_guideFragment_to_guideDetailFragment"
+            app:destination="@id/guideDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/guideDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.guide.GuideDetailFragment"
+        android:label="fragment_guide_detail"
+        tools:layout="@layout/fragment_guide_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/cheatFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.cheat.CheatFragment"
+        android:label="fragment_cheat"
+        tools:layout="@layout/fragment_cheat" />
+    <fragment
+        android:id="@+id/keysFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.keys.KeysFragment"
+        android:label="fragment_keys"
+        tools:layout="@layout/fragment_keys">
+        <action
+            android:id="@+id/action_keysFragment_to_keyDetailFragment"
+            app:destination="@id/keyDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.recipe.RecipeFragment"
+        android:label="fragment_recipe"
+        tools:layout="@layout/fragment_recipe">
+        <action
+            android:id="@+id/action_recipeFragment_to_recipeDetailFragment"
+            app:destination="@id/recipeDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.recipe.RecipeDetailFragment"
+        android:label="fragment_recipe_detail"
+        tools:layout="@layout/fragment_recipe_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/seedsFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.seeds.SeedsFragment"
+        android:label="fragment_seeds"
+        tools:layout="@layout/fragment_seeds">
+        <action
+            android:id="@+id/action_seedsFragment_to_seedsDetailFragment"
+            app:destination="@id/seedsDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seedsDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.seeds.SeedsDetailFragment"
+        android:label="fragment_seeds_detail"
+        tools:layout="@layout/fragment_seeds_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/toolFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.tool.ToolFragment"
+        android:label="fragment_tool"
+        tools:layout="@layout/fragment_tool">
+        <action
+            android:id="@+id/action_toolFragment_to_toolDetailFragment"
+            app:destination="@id/toolDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/toolDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.tool.ToolDetailFragment"
+        android:label="fragment_tool_detail"
+        tools:layout="@layout/fragment_tool_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/keyDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.keys.KeyDetailFragment"
+        android:label="fragment_key_detail"
+        tools:layout="@layout/fragment_key_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/creatureDetailFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.creature.CreatureDetailFragment"
+        android:label="fragment_creature_detail"
+        tools:layout="@layout/fragment_creature_detail">
+        <argument
+            android:name="model"
+            app:argType="com.appcake.modsforvalheim.core.model.ArmorData" />
+    </fragment>
+    <fragment
+        android:id="@+id/commandsFragment"
+        android:name="com.appcake.modsforvalheim.core.ui.fragments.commands.CommandsFragment"
+        android:label="fragment_commands"
+        tools:layout="@layout/fragment_commands" />
+</navigation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">TÌM VÀ ĐÁNH BOSSES MẠNH MẼ</string>
+    <string name="subText2">KHÁM PHÁ MISTLANDS BÍ ẨN</string>
+    <string name="subText3">THÊM CÁC MẶT HÀNG HỮU ÍCH VÀO KHO CỦA BẠN</string>
+    <string name="subText4">BẢO VỆ MÌNH BẰNG VŨ KHÍ MỚI</string>
+    <string name="subText5">NHẬN BỘ SƯU TẬP CÁC MOD TỐT NHẤT</string>
+    <string name="free_trial">BẮT ĐẦU 3 NGÀY MIỄN PHÍ SAU ĐÓ $29,99/TUẦN</string>
+    <string name="privacy_policy" >&lt;u>Chính sách bảo mật &lt;/u></string>
+    <string name="terms" >&lt;u>Điều khoản sử dụng &lt;/u></string>
+    <string name="add_text_here" >Khi kết thúc ưu đãi, đăng ký sẽ được thanh toán tự động và bạn sẽ bị tính phí 29,99 đô la mỗi tuần một lần cho đến khi bạn hủy đăng ký của mình. Bạn có thể bỏ theo dõi bất cứ lúc nào. Kiểm tra chính sách bảo mật và điều khoản sử dụng của chúng tôi.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

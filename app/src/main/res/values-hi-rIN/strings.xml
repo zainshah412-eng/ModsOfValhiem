@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">शक्तिशाली मालिकों को ढूंढें और उन्हें हराएं</string>
+    <string name="subText2">रहस्यमयी मिस्टलैंड्स का अन्वेषण करें</string>
+    <string name="subText3">अपनी वस्तु-सूची में उपयोगी वस्तुएँ जोड़ें</string>
+    <string name="subText4">नए हथियारों से खुद को सुरक्षित रखें</string>
+    <string name="subText5">मॉड्स का सबसे अच्छा संग्रह प्राप्त करें</string>
+    <string name="free_trial">$29.99/सप्ताह के बाद 3-दिन मुफ़्त में शुरू करें</string>
+    <string name="privacy_policy" >&lt;u>गोपनीयता नीति&lt;/u></string>
+    <string name="terms" >&lt;u>उपयोग की शर्तें &lt;/u></string>
+    <string name="add_text_here" >ऑफ़र के अंत में, सदस्यता स्वचालित रूप से भुगतान की जाएगी और जब तक आप अपनी सदस्यता रद्द नहीं करते तब तक आपसे सप्ताह में एक बार $29.99 शुल्क लिया जाएगा। आप किसी भी समय सदस्यता समाप्त कर सकते हैं। हमारी गोपनीयता नीति और उपयोग की शर्तें देखें।</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

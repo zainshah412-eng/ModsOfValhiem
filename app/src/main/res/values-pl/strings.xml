@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">ZNAJDŹ I POKONAJ POTĘŻNYCH BOSSÓW</string>
+    <string name="subText2">ODKRYWAJ TAJEMNICZE ZIEMIE Mgły</string>
+    <string name="subText3">DODAJ PRZYDATNE PRZEDMIOTY DO SWOJEGO Ekwipunku</string>
+    <string name="subText4">CHROŃ SIĘ NOWYMI BROŃAMI</string>
+    <string name="subText5">POBIERZ NAJLEPSZĄ KOLEKCJĘ MODÓW</string>
+    <string name="free_trial">ROZPOCZNIJ 3 DNI ZA DARMO, A POTEM 29,99 USD/TYDZIEŃ</string>
+    <string name="privacy_policy" >&lt;u>Polityka Prywatności &lt;/u></string>
+    <string name="terms" >&lt;u>Warunki korzystania &lt;/u></string>
+    <string name="add_text_here" >Pod koniec oferty subskrypcja zostanie automatycznie opłacona, a raz w tygodniu będzie pobierana opłata w wysokości 29,99 USD, dopóki nie anulujesz subskrypcji. Możesz zrezygnować z subskrypcji w dowolnym momencie. Sprawdź naszą politykę prywatności i warunki użytkowania.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

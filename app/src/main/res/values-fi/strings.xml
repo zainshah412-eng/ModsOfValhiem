@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="add_text_here">ALOITA 3 PÄIVÄÄ ILMAISEKSI, SITTEN 29,99 $/VIIKKO</string>
+    <string name="free_trial" >Tarjouksen päätyttyä tilaus maksetaan automaattisesti ja sinulta veloitetaan 29,99 dollaria kerran viikossa, kunnes peruutat tilauksesi. Voit peruuttaa tilauksen milloin tahansa. Tutustu tietosuojakäytäntöömme ja käyttöehtoihimme.</string>
+    <string name="subText1">LÖYDÄ JA PÄÄLTÄ VOIMASSA POMOJA</string>
+    <string name="subText2">TUTUSTU SALASTULISIIN MISTEIHIN</string>
+    <string name="subText3">LISÄÄ HYÖDYLLISIÄ TUOTTEITA VARASTOSSASI</string>
+    <string name="subText4">SUOJAA ITSESI UUSILLA ASEILLA</string>
+    <string name="subText5">HANKI PARAS MODIKOKOELMA</string>
+    <string name="privacy_policy" >&lt;u>Tietosuojakäytäntö &lt;/u></string>
+    <string name="terms" >&lt;u>Käyttöehdot &lt;/u></string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="APP_KEY_DROPBOX">afdn9530fjz1u7b</string>
+    <string name="APP_KEY_DROPBOX_DB">db-afdn9530fjz1u7b</string>
+    <string name="APP_SECRET_DROPBOX">us5bue5ie30tqt2</string>
+    <string name="REFRESH_TOKEN">1ENvU733i4QAAAAAAAAAAbkIJ7jxPNQuPHehOs6fku17-o5xsJqVbpqR5Q0HTR_Z</string>
+
+
+
+<!--        <string name="APP_KEY_DROPBOX">h56r5ghvwuwxwhn</string>-->
+<!--        <string name="APP_KEY_DROPBOX_DB">db-h56r5ghvwuwxwhn</string>-->
+<!--        <string name="APP_SECRET_DROPBOX">m24nd2a3gyj3nmi</string>-->
+<!--    <string name="REFRESH_TOKEN">8uKVfMo_uXkAAAAAAAAArDJgX3N2OO_bRRg3E6wnMr8</string>-->
+</resources>
+

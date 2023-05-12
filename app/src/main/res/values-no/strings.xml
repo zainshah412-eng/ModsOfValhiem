@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">FINN OG BESEIR KRAFTIGE SJEFER</string>
+    <string name="subText2">UTFORSK DE MYSTERIØSE MISTLANDENE</string>
+    <string name="subText3">LEGG TIL NYTTIGE ARTIKLER I VAREN DIN</string>
+    <string name="subText4">BESKYTT DEG MED NYE VÅPEN</string>
+    <string name="subText5">FÅ DEN BESTE SAMLING AV MODS</string>
+    <string name="free_trial">START 3-DAGER GRATIS, SÅ 29,99 USD/UKE</string>
+    <string name="privacy_policy" >&lt;u>Personvernerklæring &lt;/u></string>
+    <string name="terms" >&lt;u>Vilkår for bruk &lt;/u></string>
+    <string name="add_text_here" >På slutten av tilbudet vil abonnementet automatisk bli betalt, og du vil bli belastet $29,99 en gang i uken frem til du sier opp abonnementet. Du kan melde deg av når som helst. Sjekk ut vår personvernerklæring og vilkår for bruk.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="add_text_here">BEGIN 3 DAGEN GRATIS DAN $ 29,99/WEEK </string>
+    <string name="free_trial" >Aan het einde van de aanbieding wordt het abonnement automatisch betaald en wordt er eenmaal per week $ 29,99 in rekening gebracht totdat u uw abonnement opzegt. U kunt zich op elk moment afmelden. Bekijk ons ​​privacybeleid en onze gebruiksvoorwaarden.</string>
+    <string name="subText1">LEIA JA ALI VÕIMSAD ÜLEMUSED</string>
+    <string name="subText2">UURIGE SALASTATUD UDUDEID</string>
+    <string name="subText3">LISAGE OMA VARUSSE KASULIKKUID KAUBAID </string>
+    <string name="subText4">KAITSE END Uute RELVADEGA </string>
+    <string name="subText5"> HANKIGE PARIM MODIDE KOLLEKTSIOON</string>
+    <string name="privacy_policy" >&lt;u>Privacybeleid&lt;/u></string>
+    <string name="terms" >&lt;u>Gebruiksvoorwaarden &lt;/u></string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

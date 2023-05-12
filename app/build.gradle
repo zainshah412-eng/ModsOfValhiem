@@ -1,0 +1,196 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+
+}
+
+android {
+    namespace 'com.appcake.modsforvalheim'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.appcake.modsforvalheim"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        viewBinding  true
+        dataBinding = true
+    }
+
+    dataBinding{
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.4'
+    def appCenterSdkVersion = '4.1.0'
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
+    implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
+
+
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+
+    // Coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1"
+
+    //Hilt
+    implementation 'com.google.dagger:hilt-android:2.38.1'
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
+    kapt 'com.google.dagger:hilt-android-compiler:2.38.1'
+    kapt "androidx.hilt:hilt-compiler:1.0.0"
+
+    // size
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    kapt 'com.github.bumptech.glide:compiler:4.11.0'
+
+    //Lifecycle
+    def lifecycle_version = "2.3.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    //implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+    api(platform("com.squareup.okhttp3:okhttp-bom:4.8.0"))
+    api("com.squareup.okhttp3:okhttp")              // No version!
+    api("com.squareup.okhttp3:logging-interceptor") // No version!
+
+    // Rounded Imageview
+    implementation 'com.rishabhharit.roundedimageview:RoundedImageView:0.8.4'
+
+
+    // Circular ImageView
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    // Round Corners Progress bar
+    implementation 'com.akexorcist:round-corner-progress-bar:2.1.2'
+
+    // For runtime permissions
+    implementation 'com.nabinbhandari.android:permissions:3.8'
+
+    // Progress Dialog
+    implementation 'com.kaopiz:kprogresshud:1.0.2'
+
+    // Pull to refresh
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    // For Html tags
+    implementation 'org.jsoup:jsoup:1.11.1'
+    // Declare the dependency for the Analytics library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    kapt 'com.github.bumptech.glide:compiler:4.11.0'
+
+
+
+    //   implementation 'com.github.dhaval2404:imagepicker:2.1'
+
+    //For Swipe able Recycler View
+    // implementation 'com.github.tsuryo:Swipeable-RecyclerView:1.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    // Image Slider
+    implementation 'com.github.smarteist:autoimageslider:1.4.0'
+
+    implementation 'com.dropbox.core:dropbox-core-sdk:5.4.4'
+    api project(path:':dropbox_base')
+
+    //Room db
+    implementation "androidx.room:room-runtime:2.5.0"
+    kapt "androidx.room:room-compiler:2.5.0"
+    implementation "androidx.room:room-ktx:2.5.0"
+
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+    //Runtime permission
+    implementation 'com.karumi:dexter:6.2.3'
+
+    //Billing
+   // val billing_version = "5.1.0"
+
+    implementation("com.android.billingclient:billing-ktx:5.1.0")
+
+
+    implementation "androidx.media3:media3-exoplayer:1.0.0-rc02"
+    implementation "androidx.media3:media3-exoplayer-dash:1.0.0-rc02"
+    implementation "androidx.media3:media3-ui:1.0.0-rc02"
+
+
+    implementation 'com.pushwoosh:pushwoosh-firebase:6.6.5'
+
+
+    implementation platform('com.google.firebase:firebase-bom:31.2.3')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+
+    implementation 'com.adjust.sdk:adjust-android:4.33.0'
+
+    implementation 'com.android.installreferrer:installreferrer:2.2'
+
+    implementation 'com.google.android.gms:play-services-ads-identifier:17.0.1'
+
+    implementation 'com.google.firebase:firebase-messaging-ktx:23.1.0'
+
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:31.2.3')
+
+    // Add the dependencies for the Crashlytics and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+
+    // Ads
+        implementation 'com.google.android.gms:play-services-ads:21.5.0'
+
+
+}

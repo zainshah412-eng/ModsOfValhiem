@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">ATRASTI UN UZVARI SPĒCĪGOS BOSSUS</string>
+    <string name="subText2">IZPĒTIET NOSLĒPUMAINOS MIGLUS</string>
+    <string name="subText3">PIEVIENOJIET NODERĪGAS PRIEKŠTES SAVĀ KĀRTĀ</string>
+    <string name="subText4">AIZSARGĀJIET SEVI AR JAUNIEM IEROČIEM</string>
+    <string name="subText5">IEGŪT LABĀKO MODU KOLEKCIJU</string>
+    <string name="free_trial">SĀCIET 3 DIENAS BEZ MAKSAS, TAD 29,99 ASV dolāri NEDĒĻĀ</string>
+    <string name="privacy_policy" >&lt;u>Privātuma politika &lt;/u></string>
+    <string name="terms" >&lt;u>Lietošanas noteikumi &lt;/u></string>
+    <string name="add_text_here" >Piedāvājuma beigās abonements tiks automātiski apmaksāts, un no jums tiks iekasēta maksa 29,99 ASV dolāri reizi nedēļā, līdz atcelsiet abonementu. Jūs varat anulēt abonementu jebkurā laikā. Iepazīstieties ar mūsu privātuma politiku un lietošanas noteikumiem.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

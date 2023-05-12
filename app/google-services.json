@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1065519266522",
+    "project_id": "mods-for-valheim",
+    "storage_bucket": "mods-for-valheim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065519266522:android:38092457ab727d629a43e3",
+        "android_client_info": {
+          "package_name": "com.appcake.modsforvalheim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065519266522-4tmfb1ov7gsiqkts8ianu6fs75tjmbtf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appcake.modsforvalheim",
+            "certificate_hash": "a2b58962013c49b9fcda05abb38b99a16558d07d"
+          }
+        },
+        {
+          "client_id": "1065519266522-l9prjpmh8uuvt07n6cs6kmqsork7cqiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_VQDX-9POEQ3Ugm4B9XOM72IYpkC4Z-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065519266522-l9prjpmh8uuvt07n6cs6kmqsork7cqiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/detail_bg"
+    android:orientation="vertical"
+    tools:context=".core.ui.fragments.recipe.RecipeDetailFragment">
+
+    <LinearLayout
+        android:id="@+id/upperBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/seed_detail_back_btn"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/back_icon_seed" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/recipes"
+                android:textColor="@color/brown_color_100"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_15sdp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="@dimen/_10sdp">
+
+                        <com.smarteist.autoimageslider.SliderView
+                            android:id="@+id/seed_detail_slider"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_270sdp"
+                            app:sliderAnimationDuration="300"
+                            app:sliderAutoCycleDirection="back_and_forth"
+                            app:sliderIndicatorAnimationDuration="300"
+                            app:sliderIndicatorEnabled="true"
+                            app:sliderIndicatorGravity="center_horizontal|bottom"
+                            app:sliderIndicatorMargin="15dp"
+                            app:sliderIndicatorOrientation="horizontal"
+                            app:sliderIndicatorPadding="3dp"
+                            app:sliderIndicatorRadius="2dp"
+                            app:sliderIndicatorSelectedColor="@color/yellow_color"
+                            app:sliderIndicatorUnselectedColor="@color/light_black_400"
+                            app:sliderScrollTimeInSec="2" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        app:cardCornerRadius="@dimen/_4sdp">
+
+                        <TextView
+                            android:id="@+id/seed_detail_slider_new_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/yellow_color"
+                            android:paddingHorizontal="@dimen/_6sdp"
+                            android:paddingVertical="@dimen/_3sdp"
+                            android:text="@string/_new"
+                            android:textColor="@color/white_seed"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="@dimen/_10sdp"
+                        app:cardBackgroundColor="@color/yellow_color"
+                        app:cardCornerRadius="@dimen/_15sdp">
+
+                        <ImageView
+                            android:id="@+id/seed_detail_slider_fav_iv"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:background="@color/yellow_color"
+                            android:src="@drawable/star_icon_seed" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center"
+                    android:text="@string/recipes"
+                    android:textColor="@color/yellow_color"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/dictum_tempus_at"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:id="@+id/descriptionTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/description"
+                    android:textAlignment="center"
+                    android:textColor="@color/description_title_color"
+                    android:textSize="@dimen/_8sdp" />
+
+                <TextView
+                    android:id="@+id/downLoad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:layout_marginVertical="@dimen/_20sdp"
+                    android:background="@drawable/button_bg"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:padding="@dimen/_15sdp"
+                    android:text="@string/get_recipe"
+                    android:textColor="@color/white_seed"
+                    android:textSize="@dimen/_24sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="FULL_BANNER"
+        ads:adUnitId="@string/admob_adunit_id_valhiem"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

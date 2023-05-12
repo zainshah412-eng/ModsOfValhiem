@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".core.ui.fragments.DrawerFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgBtnExit"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/_2sdp"
+        android:src="@drawable/ic_cross"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/menu_game_dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="-13sp"
+        android:text="@string/menu"
+        android:textAppearance="@style/menu"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtnExit">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_20sdp">
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/seedsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_17sdp"
+                android:background="@drawable/bg_menu_button_gamedev"
+                android:drawableStart="@drawable/ic_seed"
+                android:drawablePadding="@dimen/_20sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:paddingVertical="@dimen/_7sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:text="@string/seeds"
+                android:textColor="@color/white_gamedev"
+                android:textSize="@dimen/_22ssp" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/cheatBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_menu_button_gamedev"
+                android:drawableStart="@drawable/ic_cheat"
+
+                android:drawablePadding="@dimen/_20sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:paddingVertical="@dimen/_7sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:text="@string/cheat"
+                android:textColor="@color/white_gamedev"
+                android:textSize="@dimen/_22ssp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/toolsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_menu_button_gamedev"
+                android:drawableStart="@drawable/ic_tool"
+
+                android:drawablePadding="@dimen/_20sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:paddingVertical="@dimen/_7sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:text="@string/tools"
+                android:textColor="@color/white_gamedev"
+                android:textSize="@dimen/_22ssp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/keysBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_menu_button_gamedev"
+                android:drawableStart="@drawable/ic_key"
+
+                android:drawablePadding="@dimen/_20sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:paddingVertical="@dimen/_7sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:text="@string/keys"
+                android:textColor="@color/white_gamedev"
+                android:textSize="@dimen/_22ssp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/recipesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_menu_button_gamedev"
+                android:drawableStart="@drawable/ic_recipe"
+
+                android:drawablePadding="@dimen/_20sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:paddingVertical="@dimen/_7sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:text="@string/recipes"
+                android:textColor="@color/white_gamedev"
+                android:textSize="@dimen/_22ssp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/creaturesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_menu_button_gamedev"
+                android:drawableStart="@drawable/ic_creature"
+
+                android:drawablePadding="@dimen/_20sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:paddingVertical="@dimen/_7sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:text="@string/creatures"
+                android:textColor="@color/white_gamedev"
+                android:textSize="@dimen/_22ssp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/commandsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_menu_button_gamedev"
+                android:drawableStart="@drawable/ic_command"
+
+                android:drawablePadding="@dimen/_20sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:paddingVertical="@dimen/_7sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:text="@string/lbl_btn_commands"
+                android:textColor="@color/white_gamedev"
+                android:textSize="@dimen/_22ssp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/guidesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_menu_button_gamedev"
+                android:drawableStart="@drawable/ic_guide"
+
+                android:drawablePadding="@dimen/_20sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:paddingVertical="@dimen/_7sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:text="@string/guides"
+                android:textColor="@color/white_gamedev"
+                android:textSize="@dimen/_22ssp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/buildsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_menu_button_gamedev"
+                android:drawableStart="@drawable/ic_build"
+
+                android:drawablePadding="@dimen/_20sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:paddingVertical="@dimen/_7sdp"
+                android:paddingStart="@dimen/_20sdp"
+                android:text="@string/builds"
+                android:textColor="@color/white_gamedev"
+                android:textSize="@dimen/_22ssp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

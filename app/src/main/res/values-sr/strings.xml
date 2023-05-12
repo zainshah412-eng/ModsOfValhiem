@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">ПРОНАЂИТЕ И ПОБИЈТЕ МОЋНЕ ШЕФОВЕ</string>
+    <string name="subText2">ИСТРАЖИТЕ МИСТЕРИОЗНЕ МАСТЛЕ</string>
+    <string name="subText3">ДОДАЈТЕ КОРИСНЕ СТВАРИ У СВОЈ ИНВЕНТАР</string>
+    <string name="subText4">ЗАШТИТИТЕ СЕ НОВИМ ОРУЖЈЕМ</string>
+    <string name="subText5">НАБАВИТЕ НАЈБОЉУ КОЛЕКЦИЈУ МОДОВА</string>
+    <string name="free_trial">ПОЧНИТЕ БЕСПЛАТНО 3 ДАНА, ОНДА 29,99 УСД/НЕДЕЉНО</string>
+    <string name="privacy_policy" >&lt;u>Правила о приватности &lt;/u></string>
+    <string name="terms" >&lt;u>Услови коришћења &lt;/u></string>
+    <string name="add_text_here" >На крају понуде, претплата ће бити аутоматски плаћена и биће вам наплаћено 29,99 УСД једном недељно док не откажете претплату. Можете отказати претплату у било ком тренутку. Погледајте нашу политику приватности и услове коришћења.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">Găsește și înfrânge șefii puternici</string>
+    <string name="subText2">EXPLORAȚI ȚĂRILE MISTERIOASE</string>
+    <string name="subText3">ADAUGĂ ARTICOLE UTILE ÎN INVENTARUL TĂU</string>
+    <string name="subText4">PROTEJAȚI-VĂ CU ARME NOI</string>
+    <string name="subText5">OBȚINE CEA MAI BUNĂ COLECȚIE DE MOD-URI</string>
+    <string name="free_trial">ÎNCEPEȚI 3 ZILE GRATUIT ȘI 29,99 USD/SĂPTĂMÂNĂ</string>
+    <string name="privacy_policy" >&lt;u>Politica de Confidențialitate &lt;/u></string>
+    <string name="terms" >&lt;u>Termeni de utilizare &lt;/u></string>
+    <string name="add_text_here" >La sfârșitul ofertei, abonamentul va fi plătit automat și veți fi taxat cu 29,99 USD o dată pe săptămână până când vă anulați abonamentul. Vă puteți dezabona în orice moment. Consultați politica noastră de confidențialitate și termenii de utilizare.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

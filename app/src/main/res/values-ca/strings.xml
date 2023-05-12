@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">TROBAR I DERROTAR CAPS PODEROSOS</string>
+    <string name="subText2">EXPLORAR LES MISTERIOSES TERRES BOIRAS</string>
+    <string name="subText3">AFEGEIX ARTICLES ÚTILS AL TEU INVENTARI</string>
+    <string name="subText4">PROTEGEIX-TE AMB NOVES ARMES</string>
+    <string name="subText5">OBTÉ LA MILLOR COL·LECCIÓ DE MODS</string>
+    <string name="free_trial">COMENÇA 3 DIES GRATIS DESPRÉS 29,99 $/SETMANA</string>
+    <string name="privacy_policy" >&lt;u>Política de privacitat &lt;/u></string>
+    <string name="terms" >&lt;u>Condicions d\'ús &lt;/u></string>
+    <string name="add_text_here" >Al final de l\'oferta, la subscripció es pagarà automàticament i se us cobrarà 29,99 $ un cop per setmana fins que cancel·leu la subscripció. Pots donar-te de baixa en qualsevol moment. Consulteu la nostra política de privadesa i condicions d\'ús.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

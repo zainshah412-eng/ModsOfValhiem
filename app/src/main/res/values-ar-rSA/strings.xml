@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="add_text_here">في نهاية العرض ، سيتم دفع الاشتراك تلقائيًا وسيتم تحصيل 29.99 دولارًا منك مرة واحدة في الأسبوع حتى تقوم بإلغاء اشتراكك. يمكنك إلغاء الاشتراك في أي وقت. تحقق من سياسة الخصوصية وشروط الاستخدام. </string>
+    <string name="free_trial" >ابدأ لمدة 3 أيام مجانًا ثم 29.99 دولارًا أمريكيًا في الأسبوع</string>
+    <string name="subText1">اعثر على الرؤساء الأقوياء وهزمهم</string>
+    <string name="subText2">اكتشف الضباب الغامض</string>
+    <string name="subText3">أضف عناصر مفيدة إلى مخزونك </string>
+    <string name="subText4"> احمِ نفسك بأسلحة جديدة</string>
+    <string name="subText5"> احصل على أفضل مجموعة من MODS</string>
+    <string name="privacy_policy" >&lt;u>سياسة الخصوصية &lt;/u></string>
+    <string name="terms" >&lt;u>شروط الاستخدام &lt;/u></string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

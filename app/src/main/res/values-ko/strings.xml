@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">강력한 보스를 찾아 물리치세요</string>
+    <string name="subText2">미스테리한 미스트랜드를 탐험하세요</string>
+    <string name="subText3">인벤토리에 유용한 항목 추가</string>
+    <string name="subText4">새로운 무기로 자신을 보호하세요</string>
+    <string name="subText5">최고의 모드 컬렉션을 받으세요</string>
+    <string name="free_trial">3일 무료 시작 후 $29.99/주</string>
+    <string name="privacy_policy" >&lt;u>개인 정보 정책 &lt;/u></string>
+    <string name="terms" >&lt;u>이용약관 &lt;/u></string>
+    <string name="add_text_here" >제안이 끝나면 구독료가 자동으로 지불되며 구독을 취소할 때까지 일주일에 한 번 $29.99가 청구됩니다. 언제든지 구독을 취소할 수 있습니다. 개인 정보 보호 정책 및 이용 약관을 확인하십시오.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

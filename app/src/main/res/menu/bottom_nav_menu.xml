@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/armor"
+        android:icon="@drawable/ic_armor"
+        android:enabled="true"
+
+        android:title="@string/armor" />
+    <item
+        android:id="@+id/biome"
+        android:icon="@drawable/ic_biome"
+
+        android:enabled="true"
+        android:title="@string/biome" />
+    <item
+        android:id="@+id/mods"
+        android:icon="@drawable/ic_mods"
+        android:enabled="true"
+        android:title="@string/mods" />
+    <item
+        android:id="@+id/character"
+        android:icon="@drawable/ic_character"
+        android:title="@string/character" />
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/ic_maps"
+        android:title="@string/maps" />
+
+</menu>

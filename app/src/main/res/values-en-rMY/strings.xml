@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">CARI DAN KALAHKAN BOSS YANG BERKUASA</string>
+    <string name="subText2">TEROKA MISTLAND MISTERIUS</string>
+    <string name="subText3">TAMBAHKAN ITEM BERGUNA PADA INVENTORI ANDA</string>
+    <string name="subText4">LINDUNGI DIRI DENGAN SENJATA BARU</string>
+    <string name="subText5">DAPATKAN KOLEKSI MOD TERBAIK</string>
+    <string name="free_trial">MULAKAN 3-HARI PERCUMA KEMUDIAN $29.99/MINGGU</string>
+    <string name="privacy_policy" >&lt;u>Dasar Privasi &lt;/u></string>
+    <string name="terms" >&lt;u>Syarat Penggunaan &lt;/u></string>
+    <string name="add_text_here" >Pada penghujung tawaran, langganan akan dibayar secara automatik dan anda akan dicaj $29.99 sekali seminggu sehingga anda membatalkan langganan anda. Anda boleh berhenti melanggan pada bila-bila masa. Semak dasar privasi dan syarat penggunaan kami.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

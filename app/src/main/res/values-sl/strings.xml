@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">NAJDI IN PREMAGAJ MOČNE ŠEFE</string>
+    <string name="subText2">RAZIŠČITE SKRIVNOSTNE MEGLE</string>
+    <string name="subText3">DODAJTE UPORABNE PREDMETE V SVOJ INVENTAR</string>
+    <string name="subText4">ZAŠČITITE SE Z NOVIM OROŽJEM</string>
+    <string name="subText5">PRIDOBITE NAJBOLJŠO ZBIRKO MODOV</string>
+    <string name="free_trial">ZAČNITE 3 DNI BREZPLAČNO, NATO 29,99 $/TEDEN</string>
+    <string name="privacy_policy" >&lt;u>Politika Zasebnosti &lt;/u></string>
+    <string name="terms" >&lt;u>Pogoji uporabe &lt;/u></string>
+    <string name="add_text_here" >Ob koncu ponudbe bo naročnina samodejno plačana in enkrat na teden vam bomo zaračunali 29,99 USD, dokler ne prekličete naročnine. Odjavite se lahko kadarkoli. Preverite naš pravilnik o zasebnosti in pogoje uporabe.</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

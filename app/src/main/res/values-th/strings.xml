@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mods for Valheim</string>
+    <string name="subText1">ค้นหาและกำจัดบอสที่ทรงพลัง</string>
+    <string name="subText2">สำรวจดินแดนหมอกลึกลับ</string>
+    <string name="subText3">เพิ่มรายการที่เป็นประโยชน์ในสินค้าคงคลังของคุณ</string>
+    <string name="subText4">ปกป้องตัวเองด้วยอาวุธใหม่</string>
+    <string name="subText5">รับ MODS ที่ดีที่สุด</string>
+    <string name="free_trial">เริ่มฟรี 3 วัน จากนั้น $29.99/สัปดาห์</string>
+    <string name="privacy_policy" >&lt;u>นโยบายความเป็นส่วนตัว &lt;/u></string>
+    <string name="terms" >&lt;u>ข้อกำหนดการใช้งาน &lt;/u></string>
+    <string name="add_text_here" >เมื่อสิ้นสุดข้อเสนอ การสมัครสมาชิกจะได้รับการชำระเงินโดยอัตโนมัติ และคุณจะถูกเรียกเก็บเงิน $29.99 สัปดาห์ละครั้งจนกว่าคุณจะยกเลิกการสมัครรับข้อมูล คุณสามารถยกเลิกการสมัครได้ตลอดเวลา ตรวจสอบนโยบายความเป็นส่วนตัวและข้อกำหนดการใช้งานของเรา</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+</resources>

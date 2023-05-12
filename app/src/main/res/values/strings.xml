@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name" translatable="false">Mods for Valheim</string>
+    <string name="fcm_sender_id" translatable="false">123456789012</string>
+    <string name="no_internet" translatable="false">No Internet Available</string>
+    <string name="menu" translatable="false">Menu</string>
+    <string name="lbl_btn_mods" translatable="false">Mods</string>
+    <string name="lbl_btn_maps" translatable="false">Maps</string>
+    <string name="lbl_btn_skins" translatable="false">Skins</string>
+    <string name="lbl_btn_servers" translatable="false">Servers</string>
+    <string name="lbl_btn_skin_maker" translatable="false">Skin Maker</string>
+    <string name="lbl_btn_textures" translatable="false">Textures</string>
+    <string name="lbl_btn_commands" translatable="false">Commands</string>
+    <string name="lbl_btn_name_generator" translatable="false">Name Generator</string>
+    <string name="lbl_btn_skin_editor" translatable="false">Skin Editor</string>
+    <string name="lbl_btn_seed" translatable="false">Seed</string>
+    <string name="lbl_btn_biome" translatable="false">Biome</string>
+    <string name="lbl_btn_wallpapers" translatable="false">Wallpapers</string>
+    <string name="lbl_btn_addons" translatable="false">Addons</string>
+    <string name="lbl_btn_craft_guide" translatable="false">Craft Guide</string>
+    <string name="lbl_btn_quiz" translatable="false">Quiz</string>
+
+    <string-array name="sample_ary">
+        <item>String10</item>
+        <item>String20</item>
+    </string-array>
+    <string-array name="sample_ary_2">
+        <item>String10</item>
+        <item>String20</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="_new" translatable="false">New</string>
+    <string name="dummy_name" translatable="false">Dummy Name</string>
+    <string name="dummy_data" translatable="false">dummy data here</string>
+    <string name="armor" translatable="false">Armor</string>
+    <string name="biome" translatable="false">Biome</string>
+    <string name="biomes" translatable="false">Biomes</string>
+    <string name="mods" translatable="false">Mods</string>
+    <string name="character" translatable="false">Character</string>
+    <string name="characters" translatable="false">Characters</string>
+    <string name="maps" translatable="false">Maps</string>
+    <string name="seeds" translatable="false">Seeds</string>
+    <string name="dictum_tempus_at" translatable="false">Dictum tempus at nisl diam pharetra, urna, felis, eget tellus. Sagittis at pharetra enim amet, in.\n\nDictum tempus at nisl diam pharetra, urna, felis, eget tellus. Sagittis at pharetra enim amet, in.</string>
+    <string name="download" translatable="false">Download</string>
+    <string name="cheat" translatable="false">Cheat</string>
+    <string name="tools" translatable="false">Tools</string>
+    <string name="keys" translatable="false">Keys</string>
+    <string name="recipes" translatable="false">Recipes</string>
+    <string name="creatures" translatable="false">Creatures</string>
+    <string name="guides" translatable="false">Guides</string>
+    <string name="builds" translatable="false">Builds</string>
+    <string name="position" translatable="false">Position</string>
+    <string name="spawn_location" translatable="false">Spawn Location</string>
+    <string name="commands" translatable="false">Commands</string>
+    <string name="cheats" translatable="false">Cheats</string>
+    <string name="APP_KEY" translatable="false">afdn9530fjz1u7b</string>
+    <string name="Video" translatable="false">Video</string>
+
+
+
+    <string name="all_lbl" translatable="false">All</string>
+    <string name="new_lbl" translatable="false">New</string>
+    <string name="favorites_lbl" translatable="false">Favorites</string>
+    <string name="last_added_lbl" translatable="false">Last Added</string>
+    <string name="top_lbl" translatable="false">Top</string>
+
+    <string name="permission_storage_needed_skins" translatable="false">Storage permission is needed</string>
+    <string name="open_settings_skins" translatable="false">Open settings</string>
+
+    <string name="add_text_here" >This app doesn’t include free content. You need subscribe to use it. Subscription : After 3-days free period, your payment will be automatically charged $ 29.99 per week. Mommy Long Legs Mods offers you one premium subscription with automatic renewal and cancellation at any time.Take advantage of the 3-day trial period and cancel your subscription during </string>
+    <string name="free_trial" >3 days free TRIAL then $29.99/week</string>
+    <string name="subText1">Find and defeat powerful bosses </string>
+    <string name="subText2">Explore the mysterious Mistlands </string>
+    <string name="subText3">Add useful items to your inventory </string>
+    <string name="subText4">Protect yourself with new weapons </string>
+    <string name="subText5">Get the best collection of mods </string>
+    <string name="privacy_policy" >&lt;u>Privacy Policy&lt;/u></string>
+    <string name="terms" >&lt;u>Terms of use&lt;/u></string>
+
+    <string name="billing_tag" translatable="false">BillingTag</string>
+    <string name="_privacy_link" translatable="false">https://www.google.com/</string>
+    <string name="tos_link" translatable="false">https://www.google.com/</string>
+
+    <string name="canceledvalheim" translatable="false">Cancelled</string>
+    <string name="errorvalheim" translatable="false">Error in payment</string>
+    <string name="some_thing_went_wrongvalheim" translatable="false">Some Thing went Wrong</string>
+    <string name="backSlashvalheim" translatable="false">/</string>
+    <string name="_androidResource" translatable="false">android.resource://</string>
+    <string name="product_id_subvalheim" translatable="false">android.test.purchased</string>
+    <string name="product_id_sub_promovalheim" translatable="false">android.test.purchased</string>
+    <string name="admob_app_idvalheim" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string-array name="subscription_content">
+        <item>Find and defeat powerful bosses</item>
+        <item>Explore the mysterious Mistlands</item>
+        <item>Add useful items to your inventory</item>
+        <item>Protect yourself with new weapons</item>
+        <item>Get the best collection of mods</item>
+    </string-array>
+
+    <!--admob ids-->
+    <string name="admob_app_id_valhiem" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_interstitial_id_valhiem" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_adunit_id_valhiem" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_rewarded_valhiem" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_native_valhiem" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="get_tool" translatable="false">Get Tool</string>
+    <string name="get_key" translatable="false">Get Key</string>
+    <string name="get_recipe" translatable="false">Get recipe</string>
+    <string name="get_armor" translatable="false">Get Armor</string>
+    <string name="view_guide" translatable="false">View guide</string>
+    <string name="offer_not_subscribed_yetvalheim">Offer not subscribed yet for valheim</string>
+    <string name="description">Description</string>
+
+</resources>
