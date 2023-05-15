@@ -83,6 +83,7 @@ class Armor : Fragment(), OnCategoryItemListener, OnItemClickListener, View.OnCl
         } else {
             fetchDataFromDataBase()
             //test for Bitrise CI/CD
+            ///////////////////////
         }
 
         MobileAds.initialize(requireContext()) {}
